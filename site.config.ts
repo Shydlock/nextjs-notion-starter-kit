@@ -12,7 +12,7 @@ export default siteConfig({
   name: 'River',
   domain: 'osier-river',
   author: 'River',
-
+ 
   // open graph metadata (optional)
   description: 'River Blog',
 
