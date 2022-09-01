@@ -26,6 +26,8 @@ export async function getPreviewImageMap(
         if(url.startsWith("https://www.notion.so/image/")) {
           url = url.slice(28)
           url = decodeURIComponent(url)
+          const cacheKey = ''
+          return [cacheKey, await getPreviewImage(url, { cacheKey })]
         }
         const cacheKey = normalizeUrl(url)
         return [cacheKey, await getPreviewImage(url, { cacheKey })]
@@ -56,6 +58,7 @@ async function createPreviewImage(
     //By River
     if(url.startsWith("https://www.notion.so/image/")) {
       url = url.slice(28)
+      url = decodeURIComponent(url)
     }
     const { body } = await got(url, { responseType: 'buffer' })
     const result = await lqip(body)
