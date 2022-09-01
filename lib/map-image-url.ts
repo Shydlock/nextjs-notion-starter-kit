@@ -10,7 +10,9 @@ export const mapImageUrl = (url: string, block: Block) => {
 
   //By River
   if(url.startsWith("https://www.notion.so/image/")) {
-    return url.slice(28)
+    url =  url.slice(28)
+    url = decodeURIComponent(url)
+    return defaultMapImageUrl(url, block)
   }
 
   return defaultMapImageUrl(url, block)
