@@ -25,10 +25,11 @@ export async function getPreviewImageMap(
         //By River
         if(url.startsWith("https://www.notion.so/image/")) {
           url = url.slice(28)
+          const cacheKey = normalizeUrl(url)
+          return [cacheKey, await getPreviewImage(url)]
         }
         const cacheKey = normalizeUrl(url)
-        // return [cacheKey, await getPreviewImage(url, { cacheKey })]
-        return [cacheKey, await getPreviewImage(url)]
+        return [cacheKey, await getPreviewImage(url, { cacheKey })]
       },
       {
         concurrency: 8
