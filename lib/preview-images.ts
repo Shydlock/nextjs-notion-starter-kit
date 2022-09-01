@@ -25,9 +25,7 @@ export async function getPreviewImageMap(
         //By River
         if(url.startsWith("https://www.notion.so/image/")) {
           url = url.slice(28)
-          const cacheKey = normalizeUrl(url)
-          const a = ''
-          return [cacheKey, await getPreviewImage(url,{a})]
+          url = decodeURIComponent(url)
         }
         const cacheKey = normalizeUrl(url)
         return [cacheKey, await getPreviewImage(url, { cacheKey })]
