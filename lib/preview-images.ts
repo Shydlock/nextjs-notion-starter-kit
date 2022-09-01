@@ -22,6 +22,10 @@ export async function getPreviewImageMap(
     await pMap(
       urls,
       async (url) => {
+        //By River
+        if(url.startsWith("https://www.notion.so/image/")) {
+          url = url.slice(28)
+        }
         const cacheKey = normalizeUrl(url)
         return [cacheKey, await getPreviewImage(url, { cacheKey })]
       },
@@ -48,7 +52,10 @@ async function createPreviewImage(
       // ignore redis errors
       console.warn(`redis error get "${cacheKey}"`, err.message)
     }
-
+    //By River
+    if(url.startsWith("https://www.notion.so/image/")) {
+      url = url.slice(28)
+    }
     const { body } = await got(url, { responseType: 'buffer' })
     const result = await lqip(body)
     console.log('lqip', { ...result.metadata, url, cacheKey })
