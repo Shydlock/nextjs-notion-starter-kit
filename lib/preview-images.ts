@@ -57,7 +57,7 @@ async function createPreviewImage(
     }
     //By River
     if(url.startsWith("https://www.notion.so/image/")) {
-      url = url.slice(28)
+      url = url.slice(27)
       url = decodeURIComponent(url)
     }
     const { body } = await got(url, { responseType: 'buffer' })
