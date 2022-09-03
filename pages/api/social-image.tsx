@@ -95,8 +95,8 @@ export default withOGImage<'query', 'id'>({
             })} ${dateUpdated.getFullYear()}`
           : undefined
       // River
-//       const detail = date || config.domain
-      const detail = date || (config.domain + ".notion.site")
+      const detail = date || config.domain
+//       const detail = date || (config.domain + ".notion.site")
 
       return (
         <html>
