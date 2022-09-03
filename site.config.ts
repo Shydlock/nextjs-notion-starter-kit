@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'River',
-  domain: 'osier-river',
+  domain: 'osier-river.notion.site',
   author: 'River',
 
   // open graph metadata (optional)
