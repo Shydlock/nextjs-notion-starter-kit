@@ -28,8 +28,8 @@ export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
 
   const feed = new RSS({
     title: config.name,
-    site_url: config.host,
-    feed_url: `${config.host}/feed.xml`,
+    site_url: config.host + ".notion.site",
+    feed_url: `${config.host} + ".notion.site"/feed.xml`,
     language: config.language,
     ttl: ttlMinutes
   })
