@@ -38,7 +38,7 @@ export const FooterImpl: React.FC = () => {
       
       
       <div className={styles.copyright}>Copyright 2022 {config.author}. Support 
-        <a href="https://follow.it/osier-river?pub">RSS</a>
+        <a href="https://follow.it/osier-river?pub" style="color: #CC0033;"> RSS </a>
         subscribe.</div>
 
       <div className={styles.settings}>
