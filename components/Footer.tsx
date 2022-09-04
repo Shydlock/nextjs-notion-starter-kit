@@ -36,23 +36,6 @@ export const FooterImpl: React.FC = () => {
     
     <footer className={styles.footer}>
       
-      <div className="{styles.followit--follow-form-container}" attr-a attr-b attr-c attr-d attr-e attr-f>
-<form data-v-2bdb5506="" action="https://api.follow.it/subscription-form/bmRjdngvNWNyZUw2STZWSm1sQU5XdGFjOTlaMFVvM3RMZ2Y1STVnRW9Ed0JCRGxmd2dDZDZtT3BNbEYxTHp4aTVFYWpHUHpneEtwZCtxQTAzTnY5aGR5ZUgwSVgwZGtvMDRsM2RzWDN0VTZOVnhZS1FHOFgyWklVQm5aNXFVdHV8eUFnaUoxRjRpTmZBY2xjcU5uVTk1K2ZBWmNWUmVOMWFUSjM5T0lDN1BaWT0=/8" method="post">
-<div data-v-2bdb5506="" className="{styles.form-preview}">
-  <div data-v-2bdb5506="" className="{styles.preview-heading}"><h5 data-v-2bdb5506="" style="text-transform: none !important; font-family: Montserrat; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center;">
-          Get new posts by email:
-  </h5></div>
-<div data-v-2bdb5506="" className="{styles.preview-input-field}">
-  <input data-v-2bdb5506="" type="email" name="email" required="required" placeholder="Enter your email" spellCheck="false" style="text-transform: none !important; font-family: Montserrat; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255);"/>
-</div>
-<div data-v-2bdb5506="" className="{styles.preview-submit-button}">
-<button data-v-2bdb5506="" type="submit" style="text-transform: none !important; font-family: Montserrat; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0);">
-        Subscribe
-</button>
-</div>
-</div>
-</form>
-<a href="https://follow.it" className="{styles.powered-by-line}">Powered by <img src="https://follow.it/static/img/colored-logo.svg" alt="follow.it" height="17px"/></a></div>
       
       <div className={styles.copyright}>Copyright 2022 {config.author}</div>
 
