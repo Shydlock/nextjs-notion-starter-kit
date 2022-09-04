@@ -21,6 +21,7 @@ export default siteConfig({
   github: 'Shydlock',
   zhihu: 'bing-yu-18-12',
   weibo: '5264649255',
+  rss: 'osier-river?leanpub',
 //   linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
