@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
+import { FaRss } from '@react-icons/all-files/fa/FaRss'
 import { FaWeibo } from '@react-icons/all-files/fa/FaWeibo'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
@@ -67,16 +68,28 @@ export const FooterImpl: React.FC = () => {
             <FaTwitter />
           </a>
         )}
-
-        {config.zhihu && (
+        
+        {config.weibo && (
           <a
-            className={styles.zhihu}
-            href={`https://zhihu.com/people/${config.zhihu}`}
-            title={`Zhihu @${config.zhihu}`}
+            className={styles.weibo}
+            href={`https://weibo.com/u/${config.weibo}`}
+            title={`Weibo @${config.weibo}`}
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaZhihu />
+            <FaWeibo />
+          </a>
+        )}
+
+        {config.rss && (
+          <a
+            className={styles.rss}
+            href={`https://follow.it/${config.rss}`}
+            title={`Rss @${config.rss}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaRss />
           </a>
         )}
         
