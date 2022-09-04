@@ -9,7 +9,9 @@
 }
 
 .hits{
-  opacity: 0.5;
+  opacity: 0.75;
+  width: 20%;
+  margin-left: 10px;
 }
 
 .container {
