@@ -8,9 +8,14 @@
   color: #CC0033;
 }
 
+.hitsA{
+  position: absolute;
+}
+
 .hits{
   opacity: 0.75;
-  width: 25%;
+/*   width: 25%; */
+  margin-top: -2px; 
   margin-left: 10px;
 }
 
