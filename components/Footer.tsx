@@ -33,8 +33,7 @@ export const FooterImpl: React.FC = () => {
   }, [])
 
   return (
-    <footer className={styles.footer}>
-      <style>
+    <style>
         @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
         @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
         .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
@@ -116,6 +115,8 @@ export const FooterImpl: React.FC = () => {
           max-height: 1.13em !important;
         }
         </style>
+    <footer className={styles.footer}>
+      
       <div class="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
       <form data-v-2bdb5506="" action="https://api.follow.it/subscription-form/bmRjdngvNWNyZUw2STZWSm1sQU5XdGFjOTlaMFVvM3RMZ2Y1STVnRW9Ed0JCRGxmd2dDZDZtT3BNbEYxTHp4aTVFYWpHUHpneEtwZCtxQTAzTnY5aGR5ZUgwSVgwZGtvMDRsM2RzWDN0VTZOVnhZS1FHOFgyWklVQm5aNXFVdHV8eUFnaUoxRjRpTmZBY2xjcU5uVTk1K2ZBWmNWUmVOMWFUSjM5T0lDN1BaWT0=/8" method="post">
       <div data-v-2bdb5506="" class="form-preview" style="background-color: rgb(255, 255, 255); border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204); position: relative;"><div data-v-2bdb5506="" class="preview-heading">
