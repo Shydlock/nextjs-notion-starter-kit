@@ -37,7 +37,7 @@ export const FooterImpl: React.FC = () => {
     <footer className={styles.footer}>
       
       
-      <div className={styles.copyright}>Copyright 2022 {config.author}. Support 
+      <div className={styles.copyright}>Copyright 2022 {config.author}. Also support 
         <a className={styles.rssA} href="https://follow.it/osier-river?pub"> RSS </a>
         subscribe.</div>
 
