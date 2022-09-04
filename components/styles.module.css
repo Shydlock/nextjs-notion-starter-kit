@@ -101,6 +101,10 @@
   color: #0066ff;
 }
 
+.rss:hover {
+  color: #009966;
+}
+
 .weibo:hover {
   color: #990000;
 }
