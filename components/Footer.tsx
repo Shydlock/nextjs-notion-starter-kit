@@ -69,17 +69,7 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
         
-        {config.weibo && (
-          <a
-            className={styles.weibo}
-            href={`https://weibo.com/u/${config.weibo}`}
-            title={`Weibo @${config.weibo}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaWeibo />
-          </a>
-        )}
+      
 
         {config.rss && (
           <a
@@ -90,6 +80,18 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaRss />
+          </a>
+        )}
+        
+          {config.zhihu && (
+          <a
+            className={styles.zhihu}
+            href={`https://zhihu.com/people/${config.zhihu}`}
+            title={`Zhihu @${config.zhihu}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaZhihu />
           </a>
         )}
         
