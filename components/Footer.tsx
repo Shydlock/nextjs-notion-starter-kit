@@ -38,12 +38,12 @@ export const FooterImpl: React.FC = () => {
       
       <div className="followit--follow-form-container" attr-a attr-b attr-c attr-d attr-e attr-f>
 <form data-v-2bdb5506="" action="https://api.follow.it/subscription-form/bmRjdngvNWNyZUw2STZWSm1sQU5XdGFjOTlaMFVvM3RMZ2Y1STVnRW9Ed0JCRGxmd2dDZDZtT3BNbEYxTHp4aTVFYWpHUHpneEtwZCtxQTAzTnY5aGR5ZUgwSVgwZGtvMDRsM2RzWDN0VTZOVnhZS1FHOFgyWklVQm5aNXFVdHV8eUFnaUoxRjRpTmZBY2xjcU5uVTk1K2ZBWmNWUmVOMWFUSjM5T0lDN1BaWT0=/8" method="post">
-<div data-v-2bdb5506="" className="form-preview" style="background-color: rgb(255, 255, 255); border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204);">
-<div data-v-2bdb5506="" className="preview-heading"><h5 data-v-2bdb5506="" style="text-transform: none !important; font-family: Montserrat; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center;">
-        Get new posts by email:
-</h5></div>
+<div data-v-2bdb5506="" className="form-preview" style="background-color: rgb(255, 255, 255); border-style: solid; border-width: 1px; border-color: rgb(204, 204, 204); position: relative;">
+  <div data-v-2bdb5506="" className="preview-heading"><h5 data-v-2bdb5506="" style="text-transform: none !important; font-family: Montserrat; font-weight: bold; color: rgb(0, 0, 0); font-size: 16px; text-align: center;">
+          Get new posts by email:
+  </h5></div>
 <div data-v-2bdb5506="" className="preview-input-field">
-<input data-v-2bdb5506="" type="email" name="email" required="required" placeholder="Enter your email" spellCheck="false" style="text-transform: none !important; font-family: Montserrat; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255);"/>
+  <input data-v-2bdb5506="" type="email" name="email" required="required" placeholder="Enter your email" spellCheck="false" style="text-transform: none !important; font-family: Montserrat; font-weight: normal; color: rgb(0, 0, 0); font-size: 14px; text-align: center; background-color: rgb(255, 255, 255);"/>
 </div>
 <div data-v-2bdb5506="" className="preview-submit-button">
 <button data-v-2bdb5506="" type="submit" style="text-transform: none !important; font-family: Montserrat; font-weight: bold; color: rgb(255, 255, 255); font-size: 16px; text-align: center; background-color: rgb(0, 0, 0);">
