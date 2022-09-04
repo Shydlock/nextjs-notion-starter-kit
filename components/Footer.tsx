@@ -38,15 +38,7 @@ export const FooterImpl: React.FC = () => {
         @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
         @import url('https://fonts.googleapis.com/css?family=Montserrat:400');
         .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview {
-          display: flex !important;
-          flex-direction: column !important;
-          justify-content: center !important;
-          margin-top: 30px !important;
-          padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;
-          max-width: none !important;
-          border-radius: 6px !important;
-          box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;
-        }
+          display: flex !important;flex-direction: column !important;justify-content: center !important;margin-top: 30px !important;padding: clamp(17px, 5%, 40px) clamp(17px, 7%, 50px) !important;max-width: none !important;border-radius: 6px !important;box-shadow: 0 5px 25px rgba(34, 60, 47, 0.25) !important;}
         .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview,
         .followit--follow-form-container[attr-a][attr-b][attr-c][attr-d][attr-e][attr-f] .form-preview *{
           box-sizing: border-box !important;
