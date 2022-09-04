@@ -41,7 +41,9 @@ export const FooterImpl: React.FC = () => {
       <div className={styles.copyright}>Copyright 2022 {config.author}. 
         <a className={styles.rssA} href="https://follow.it/osier-river?pub"> RSS </a>
         support. 
-        <a className={styles.hitsA} href="#"><img className={styles.hits} src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwww.liu.he.cn&count_bg=%23CDCDCD&title_bg=%23003366&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+       <div> 
+          <a className={styles.hitsA} href="#"><img className={styles.hits} src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwww.liu.he.cn&count_bg=%23CDCDCD&title_bg=%23003366&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+        </div>
       </div>
 
       <div className={styles.settings}>
