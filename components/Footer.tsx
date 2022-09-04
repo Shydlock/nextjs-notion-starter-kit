@@ -52,7 +52,7 @@ export const FooterImpl: React.FC = () => {
 </div>
 </div>
 </form>
-<a href="https://follow.it" class="powered-by-line">Powered by <img src="https://follow.it/static/img/colored-logo.svg" alt="follow.it" height
+<a href="https://follow.it" class="powered-by-line">Powered by <img src="https://follow.it/static/img/colored-logo.svg" alt="follow.it" height="17px"/></a></div>
       
       <div className={styles.copyright}>Copyright 2022 {config.author}</div>
 
