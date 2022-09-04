@@ -8,6 +8,10 @@
   color: #CC0033;
 }
 
+.hits{
+  opacity: 0.5;
+}
+
 .container {
   position: absolute;
   top: 0;
