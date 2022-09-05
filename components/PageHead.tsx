@@ -25,6 +25,7 @@ export const PageHead: React.FC<
       <meta charSet='utf-8' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta name="baidu-site-verification" content="code-qGafXQXuRN" />
+      <meta name="baidu-site-verification" content="code-SfL5nqsjnh" />
       <meta name="google-site-verification" content="x_3TPw3gxPQvxNr1rdAEfZgn9iHHDVaEN8IVF4LY3Mg" />
       <meta name="follow.it-verification-code" content="lFN8ZmJcmDNmYXzkb3ZD"/>
       <meta
