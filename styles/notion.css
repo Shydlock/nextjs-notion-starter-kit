@@ -434,3 +434,7 @@ a.notion-page-link.notion-block-2b1608d9b9784a62a1e3c4427df14c9c {
 .notion-block-40ca9a85a0694852868c7bffbc989783>.notion-table>.notion-table-view {
     margin-left: 42px;
 }
+
+.notion-block-40ca9a85a0694852868c7bffbc989783>.notion-collection-header{
+    padding-left: 136px;
+}
