@@ -427,7 +427,7 @@ a.notion-page-link.notion-block-2b1608d9b9784a62a1e3c4427df14c9c {
 }
 
 .notion-block-40ca9a85a0694852868c7bffbc989783>.notion-table>.notion-table-view>.notion-table-body>.notion-table-row>.notion-table-cell-multi_select>.notion-property-multi_select {
-    margin-top: 6px;
+    margin-top: 3px;
     margin-left: 8px;
 }
 
@@ -437,4 +437,12 @@ a.notion-page-link.notion-block-2b1608d9b9784a62a1e3c4427df14c9c {
 
 .notion-block-40ca9a85a0694852868c7bffbc989783>.notion-collection-header{
     padding-left: 136px !important;
+}
+
+.notion-block-40ca9a85a0694852868c7bffbc989783>.notion-table>.notion-table-view>.notion-table-body>.notion-table-row>.notion-table-cell-multi_select>.notion-property-multi_select>.notion-property-multi_select-item{
+    width: 50px;
+    height: 25px;
+    /* text-align: center; */
+    padding-left: 10px;
+    font-weight: 600;
 }
