@@ -446,3 +446,8 @@ a.notion-page-link.notion-block-2b1608d9b9784a62a1e3c4427df14c9c {
     padding-left: 10px;
     font-weight: 550;
 }
+
+.notion-block-40ca9a85a0694852868c7bffbc989783>.notion-table>.notion-table-view>.notion-table-body>.notion-table-row>.notion-table-cell-checkbox>.notion-property-checkbox>.notion-property-checkbox-container>.notion-property-checkbox>.notion-property-checkbox-unchecked{
+    border: 1.8px solid var(--fg-color);
+    border-radius: 3px;
+}
