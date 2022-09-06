@@ -415,3 +415,7 @@ a.notion-page-link.notion-block-2b1608d9b9784a62a1e3c4427df14c9c {
     justify-content: center;
     padding: 2em;
 }
+
+.notion-property-checkbox-container {
+    margin-top: 8px;
+}
