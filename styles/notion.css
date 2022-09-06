@@ -420,7 +420,7 @@ a.notion-page-link.notion-block-2b1608d9b9784a62a1e3c4427df14c9c {
     margin-top: 8px;
 }
 
-.notion-table-cell.notion-table-cell-date {
+.notion-block-40ca9a85a0694852868c7bffbc989783>.notion-table>.notion-table-view>.notion-table-body>.notion-table-row>.notion-table-cell-date {
     padding-top: 14px;
     font-size: 15px;
     padding-left: 10px;
