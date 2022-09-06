@@ -425,3 +425,8 @@ a.notion-page-link.notion-block-2b1608d9b9784a62a1e3c4427df14c9c {
     font-size: 15px;
     padding-left: 10px;
 }
+
+.notion-property-multi_select, .notion-property-select {
+    margin-top: 6px;
+    margin-left: 8px;
+}
