@@ -15,7 +15,7 @@ export default siteConfig({
 
   // open graph metadata (optional)
   description: 'River Blog',
- 
+  
   // social usernames (optional)
 //   twitter: 'transitive_bs',
   github: 'Shydlock',
