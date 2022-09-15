@@ -16,7 +16,8 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "typeRoots": ["./node_modules/@types"],
-    "incremental": true
+    "incremental": true,
+    "staticPageGenerationTimeout": 120
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "site.config.ts"]
