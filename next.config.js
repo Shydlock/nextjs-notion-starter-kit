@@ -7,8 +7,6 @@ module.exports = withBundleAnalyzer({
   staticPageGenerationTimeout: 600,
   images: {
     domains: [
-      'www.notion.so',
-      'notion.so',
       'images.unsplash.com',
       'pbs.twimg.com',
       'abs.twimg.com',
